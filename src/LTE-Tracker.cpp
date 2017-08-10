@@ -968,7 +968,7 @@ int config_bladerf(
     signal(SIGINT, &sigint_callback_handler);
     signal(SIGILL, &sigint_callback_handler);
     signal(SIGFPE, &sigint_callback_handler);
-    signal(SIGSEGV, &sigint_callback_handler);
+    //    signal(SIGSEGV, &sigint_callback_handler);
     signal(SIGTERM, &sigint_callback_handler);
     signal(SIGABRT, &sigint_callback_handler);
   #endif
